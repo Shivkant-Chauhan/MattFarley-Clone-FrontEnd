@@ -1,0 +1,264 @@
+body {
+  min-width: 200px;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  position: static;
+  width: 90%;
+  margin: 0 5%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header .box2 button {
+  border-radius: 25px;
+  padding: 8px 23px;
+  font-size: 17px;
+  color: #7510F7;
+  border-color: #7510F7;
+  background-color: white;
+  font-weight: lighter;
+  font-family: "europa", sans-serif;
+  transition: background-color 0.3s ease-in-out;
+}
+.header .box2 button:hover {
+  background-color: #7510F7;
+  color: white;
+}
+.header .box2 a.mentorship {
+  color: black;
+  font-weight: lighter;
+  font-family: "europa", sans-serif;
+  transition: background-color 1s ease-in-out;
+}
+.header .box2 a.mentorship:hover {
+  color: #7510F7;
+  text-decoration: none;
+}
+.header .box2 a.mentorship:link {
+  text-decoration: none;
+}
+.header .box2 a.mentorship:visited {
+  text-decoration: none;
+}
+.header .box2 a.mentorship:active {
+  text-decoration: none;
+}
+.header .box2 .box-link {
+  display: inline;
+  padding: 8px 18px;
+  transition: background-color 1s ease-in-out;
+}
+.header .box2 .box-link:hover a {
+  color: #7510F7;
+}
+
+.main-content {
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin-top: 100px;
+}
+.main-content .content {
+  text-align: center;
+}
+.main-content .hh {
+  font-size: 2rem;
+  font-family: "eurostile", sans-serif;
+  font-weight: 800;
+}
+.main-content .contq {
+  font-family: "europa", sans-serif;
+  font-weight: lighter;
+}
+.main-content .face-con {
+  text-align: center;
+}
+.main-content .comp {
+  margin-top: 100px;
+  width: 80%;
+}
+
+.body-box .body-content {
+  background-color: #7510F7;
+  box-sizing: border-box;
+  padding: 15%;
+  padding-bottom: 20%;
+}
+.body-box .body-content .heading {
+  color: white;
+  text-align: center;
+  font-family: "eurostile", sans-serif;
+  font-weight: 800;
+}
+.body-box .body-content .cont {
+  color: white;
+  padding: 5% 0;
+  text-align: center;
+  font-family: "europa", sans-serif;
+  font-weight: lighter;
+}
+.body-box .table-container {
+  text-align: center;
+}
+.body-box .table-container .flex-box {
+  background-color: white;
+  margin: 10%;
+  margin-top: -10%;
+  border: 1.5px solid #edf2fa;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.body-box .table-container .box {
+  width: 33.33%;
+  padding-top: 5%;
+  border-right: 1.5px solid #edf2fa;
+}
+.body-box .table-container .img {
+  padding: 5%;
+}
+.body-box .table-container .box-h {
+  font-family: "eurostile", sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  padding: 5%;
+}
+.body-box .table-container .no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "europa", sans-serif;
+  font-weight: lighter;
+}
+.body-box .table-container .small-cont {
+  padding-left: 20%;
+  width: 80%;
+  font-family: "europa", sans-serif;
+  font-weight: lighter;
+}
+.body-box .table-container .small-head {
+  color: #7510F7;
+  padding-top: 10%;
+}
+
+.recent-main {
+  text-align: center;
+  margin-top: 10%;
+}
+.recent-main .recent-content {
+  margin: 10%;
+}
+.recent-main .recent-content .recent-header {
+  display: block;
+}
+.recent-main .recent-content .recent-header h4 {
+  font-size: 2rem;
+  font-family: "eurostile", sans-serif;
+  font-weight: 800;
+}
+.recent-main .recent-content .recent-header p {
+  margin-top: 5%;
+  font-family: "europa", sans-serif;
+  font-weight: lighter;
+}
+.recent-main .recent-content .recent-header a {
+  color: #7510F7;
+  font-family: "europa", sans-serif;
+}
+.recent-main .recent-content .recent-header a:link {
+  text-decoration: none;
+}
+.recent-main .recent-content .recent-header a:visited {
+  text-decoration: none;
+}
+.recent-main .recent-content .recent-header a:active {
+  text-decoration: none;
+}
+.recent-main .recent-content .recent-flexbox {
+  text-align: center;
+  margin: 5% 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.recent-main .recent-content .recent-flexbox .box-rec {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.recent-main .recent-content .recent-flexbox .box-rec .boxIMG {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  transition: transform 0.5s;
+}
+.recent-main .recent-content .recent-flexbox .box-rec .boxCONT {
+  height: 100%;
+  background: #141c1c;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  transition: opacity 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recent-main .recent-content .recent-flexbox .box-rec .boxCONT button {
+  border-radius: 25px;
+  padding: 8px 23px;
+  font-size: 17px;
+  color: white;
+  border-color: #7510F7;
+  background-color: #141c3a;
+  font-weight: lighter;
+  font-family: "europa", sans-serif;
+  transition: background-color 0.3s ease-in-out;
+}
+.recent-main .recent-content .recent-flexbox .box-rec .boxCONT button:hover {
+  background-color: #7510F7;
+  color: white;
+}
+.recent-main .recent-content .recent-flexbox .box-rec:hover .boxIMG {
+  transform: scale(1.5);
+}
+.recent-main .recent-content .recent-flexbox .box-rec:hover .boxCONT {
+  opacity: 1;
+}
+.recent-main .recent-content .recent-flexbox .middleBox {
+  margin: 0 5%;
+}
+
+.dribble {
+  text-align: center;
+  padding-bottom: 15%;
+}
+.dribble button {
+  border-radius: 25px;
+  padding: 8px 23px;
+  font-size: 17px;
+  color: #7510F7;
+  border-color: #7510F7;
+  background-color: white;
+  font-size: 1.3rem;
+  font-weight: lighter;
+  font-family: "europa", sans-serif;
+  transition: background-color 0.3s ease-in-out;
+}
+.dribble button:hover {
+  background-color: #7510F7;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

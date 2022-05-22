@@ -1,0 +1,31 @@
+.box {
+    text-align: center;
+    position: relative;
+    width: 30%;
+
+    .boxIMG {
+        display: block;
+        width: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: opacity .5s;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        opacity: 0;
+    }
+
+}
+.content:hover{
+    // .content{
+        opacity: 1;
+    // }
+}

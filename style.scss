@@ -1,0 +1,318 @@
+$col : #7510F7;
+
+body{
+    min-width: 200px;
+}
+
+.container{
+    text-align: center;
+
+}
+
+.header{
+    position: static;
+    width: 90%;
+    margin: 0 5%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .box2{
+        button{
+            border-radius: 25px;
+            padding: 8px 23px;
+            font-size: 17px;
+            color: $col;
+            border-color: $col;
+            background-color: white;
+            font-weight: lighter;
+            font-family: "europa",sans-serif;
+            transition: background-color 0.3s ease-in-out;
+        }
+        button:hover{
+            background-color: $col;
+            color: white;
+        }
+
+        a.mentorship{
+            color: black;
+            font-weight: lighter;
+            font-family: "europa",sans-serif;
+            transition: background-color 1s ease-in-out;
+
+        }
+        a.mentorship:hover{
+            color: $col;
+            text-decoration: none;
+        }
+        a.mentorship:link{
+            text-decoration: none;
+        }
+        a.mentorship:visited{
+            text-decoration: none;
+        }
+        a.mentorship:active{
+            text-decoration: none;
+        }
+    
+        .box-link{
+            display: inline;
+            padding: 8px 18px;
+            transition: background-color 1s ease-in-out;
+        }
+        .box-link:hover{
+            a{
+                color: $col;
+            }
+
+        }
+
+    }
+
+}
+
+
+
+.main-content{
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin-top: 100px;
+    // margin: 50px;
+    // padding: 50px;
+    
+    .content{
+        text-align: center;
+    }
+    .hh{
+        font-size: 2rem;
+        font-family: "eurostile",sans-serif;
+        font-weight: 800;
+
+    }
+    .contq{
+        font-family: "europa",sans-serif;
+        font-weight: lighter;
+    }
+
+    .face-con{
+        text-align: center;
+
+    }
+    .comp{
+        margin-top: 100px;
+        width: 80%;
+
+    }
+
+    
+}
+
+
+.body-box{
+
+    .body-content{
+        background-color: $col;
+        box-sizing: border-box;
+        padding: 15%;
+        padding-bottom: 20%;
+        .heading{
+            color: white;
+            text-align: center;
+            font-family: "eurostile",sans-serif;
+            font-weight: 800;
+        }
+        .cont{
+            color: white;
+            padding: 5% 0;
+            text-align: center;
+            font-family: "europa",sans-serif;
+            font-weight: lighter;
+        }
+    }
+
+
+    .table-container{
+        text-align: center;
+
+        .flex-box{
+            background-color: white;
+            margin: 10%;
+            margin-top: -10%;
+            border: 1.5px solid #edf2fa;
+            box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;//....correct this also.....\\ mistake due to .box->width:30%........!!!
+        }  
+        
+        // .box-content{
+        //     text-align: center;
+        // }
+        
+        .box{
+            // border: 5px solid black;
+            width: 33.33%;
+            padding-top: 5%;
+            border-right: 1.5px solid #edf2fa;
+        }
+        .img{
+            padding: 5%;
+        }
+        .box-h{
+            font-family: "eurostile",sans-serif;
+            font-weight: 800;
+            font-size: 1.5rem;
+            padding: 5%;
+        }
+        .no-bullets{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-family: "europa",sans-serif;
+            font-weight: lighter;
+        }
+        .small-cont{
+            padding-left: 20%;
+            width: 80%;
+            font-family: "europa",sans-serif;
+            font-weight: lighter;
+        }
+        .small-head{
+            color: $col;
+            padding-top: 10%;
+        }
+    }
+}
+
+
+
+.recent-main{
+    text-align: center;
+    margin-top: 10%;
+
+    .recent-content{
+        margin: 10%;
+    
+
+        .recent-header{
+            display: block;
+            h4{
+                font-size: 2rem;
+                font-family: "eurostile",sans-serif;
+                font-weight: 800;
+            }
+            p{
+                margin-top: 5%;
+                font-family: "europa",sans-serif;
+                font-weight: lighter;
+            }
+            a{
+                color: $col;
+                font-family: "europa",sans-serif;
+
+            }
+            a:link{
+                text-decoration: none;
+            }
+            a:visited{
+                text-decoration: none;
+            }
+            a:active{
+                text-decoration: none;
+            }
+        }
+
+
+        .recent-flexbox{
+            text-align: center;
+            margin: 5% 0;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+
+            .box-rec{
+                position: relative;
+                width: 30%;
+                height: 100%;
+                border-radius: 15px;
+                overflow: hidden;
+
+                .boxIMG{
+                    display: block;
+                    width: 100%;
+                    overflow: hidden;
+                    transition: transform .5s;
+                }
+                .boxCONT{
+                    height: 100%;
+                    background: rgb(20, 28, 28);
+                    opacity: 0;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    color: white;
+                    transition: opacity 0.5s;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    button{
+                        border-radius: 25px;
+                        padding: 8px 23px;
+                        font-size: 17px;
+                        color: white;
+                        border-color: $col;
+                        background-color: rgb(20, 28, 58);
+                        font-weight: lighter;
+                        font-family: "europa",sans-serif;
+                        transition: background-color 0.3s ease-in-out;
+                    }
+                    button:hover{
+                        background-color: $col;
+                        color: white;
+
+                    }
+                }
+            }
+            .box-rec:hover{
+                .boxIMG{
+                    transform: scale(1.5);
+                }
+                .boxCONT{
+                    opacity: 1;
+                }
+                
+            }
+
+            .middleBox{
+                margin: 0 5%;
+            }
+        }
+    }
+
+}
+
+.dribble{
+    text-align: center;
+    padding-bottom: 15%;
+    button{
+        border-radius: 25px;
+        padding: 8px 23px;
+        font-size: 17px;
+        color: $col;
+        border-color: $col;
+        background-color: white;
+        font-size: 1.3rem;
+        font-weight: lighter;
+        font-family: "europa",sans-serif;
+        transition: background-color 0.3s ease-in-out;
+    }
+    button:hover{
+        background-color: $col;
+        color: white;
+
+    }
+}
